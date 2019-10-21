@@ -20,14 +20,14 @@ public class Deltager {
    }
    
    public void addArrang(String arrang){
-   arrangListe.add(arrang);
+      arrangListe.add(arrang);
    }
    
    public String printListe(){
       int arraySize = arrangListe.size();
       String tempListe = this.name + " skal til: ";
       for(int i = 0; i < arraySize; i++){
-      tempListe = tempListe + arrangListe.get(i) + " ";
+         tempListe = tempListe + arrangListe.get(i) + " ";
       }
       
       return tempListe;

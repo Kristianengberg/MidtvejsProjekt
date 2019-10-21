@@ -22,7 +22,7 @@ public class Arrangement {
       int arraySize = deltagerListe.size();
       String tempListe = "Disse personer skal til "+this.name + ": ";
       for(int i = 0; i < arraySize; i++){
-      tempListe = tempListe + deltagerListe.get(i) + " ";
+         tempListe = tempListe + deltagerListe.get(i) + " ";
       }
       
       return tempListe;
